@@ -9,20 +9,20 @@ export default function Portfolio() {
       url: "https://radiantearth.github.io/stac-browser/#/external/stac-data.s3.us-east-2.amazonaws.com/stac-catalog/catalog.json?.language=en"
     },
     {
-      title: "Resume Web Map",
-      description: "Built with Leaflet",
-      url: "https://liammartin3.github.io/map-resume"
-    },
-    {
       title: "National Parks I Have Visited",
       description: "Interactive park tracker",
       url: "https://liammartin3.github.io/nps-leaflet/"
+    },
+    {
+      title: "Resume Web Map",
+      description: "The first map I built with Leaflet",
+      url: "https://liammartin3.github.io/map-resume"
     }
   ];
 
   const notebooks = [
     {
-      title: "Populate Null Values with Median",
+      title: "Populate Esri Feature Class Null Values with Median",
       url: "https://nbviewer.org/github/liammartin3/liammartin3.github.io/blob/main/NullFunction.ipynb"
     },
     {
@@ -36,7 +36,7 @@ export default function Portfolio() {
   ];
 
   const experience = [
-    { year: "2023 - Present", role: "GIS Developer", company: "Xentity Corporation" },
+    { year: "2023 - Present", role: "Geospatial Data Engineer", company: "Xentity Corporation" },
     { year: "2020 - 2023", role: "Geospatial Analyst", company: "Red Castle Resources" },
     { year: "2019 - 2020", role: "GIS Technician", company: "Tasman Geosciences" }
   ];
@@ -55,8 +55,9 @@ export default function Portfolio() {
             Hi, my name is Liam Martin.
           </h1>
           <p className="text-xl sm:text-2xl text-gray-300 leading-relaxed">
-            I am a Geospatial Developer who specializes in all things metadata. 
-            I use this site to share the GIS products that I build.
+            I am a Geospatial Data Engineer who builds serverless cloud solutions on AWS. 
+            I specialize in metadata standards, combining Esri enterprise platforms 
+            with open source geospatial libraries to create scalable spatial data systems.
           </p>
         </header>
 
