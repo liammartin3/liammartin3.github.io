@@ -47,22 +47,22 @@ export default function Portfolio() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-green-950 to-slate-900 text-gray-100">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 text-gray-100">
       <div className="max-w-5xl mx-auto px-6 py-16 sm:px-8">
         {/* Header */}
         <header className="mb-16">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-green-300 to-emerald-400 bg-clip-text text-transparent">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-300 to-emerald-400 bg-clip-text text-transparent">
             Hi, my name is Liam Martin.
           </h1>
           <p className="text-xl sm:text-2xl text-gray-300 leading-relaxed">
-            I am a Geospatial Data Engineer / Developer who specializes in all things metadata. 
+            I am a Geospatial Developer who specializes in all things metadata. 
             I use this site to share the GIS products that I build.
           </p>
         </header>
 
         {/* Sample Products */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 flex items-center gap-2 text-green-300">
+          <h2 className="text-2xl font-semibold mb-6 flex items-center gap-2 text-blue-300">
             <MapPin className="w-6 h-6" />
             Sample Products
           </h2>
@@ -73,9 +73,9 @@ export default function Portfolio() {
                 href={project.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group bg-slate-800/50 backdrop-blur border border-slate-700 rounded-lg p-5 hover:border-green-400 hover:bg-slate-800/70 transition-all duration-300 hover:scale-105"
+                className="group bg-slate-800/50 backdrop-blur border border-slate-700 rounded-lg p-5 hover:border-blue-400 hover:bg-slate-800/70 transition-all duration-300 hover:scale-105"
               >
-                <h3 className="font-semibold text-green-300 mb-2 group-hover:text-green-200 flex items-center gap-2">
+                <h3 className="font-semibold text-blue-300 mb-2 group-hover:text-blue-200 flex items-center gap-2">
                   {project.title}
                   <ExternalLink className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </h3>
@@ -87,7 +87,7 @@ export default function Portfolio() {
 
         {/* Python Notebooks */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 flex items-center gap-2 text-green-300">
+          <h2 className="text-2xl font-semibold mb-6 flex items-center gap-2 text-blue-300">
             <Code className="w-6 h-6" />
             Python
           </h2>
@@ -110,7 +110,7 @@ export default function Portfolio() {
 
         {/* Professional Experience */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 flex items-center gap-2 text-green-300">
+          <h2 className="text-2xl font-semibold mb-6 flex items-center gap-2 text-blue-300">
             <Briefcase className="w-6 h-6" />
             Professional Experience
           </h2>
@@ -122,7 +122,7 @@ export default function Portfolio() {
                     <h3 className="font-semibold text-gray-200">{exp.role}</h3>
                     <p className="text-gray-400">{exp.company}</p>
                   </div>
-                  <span className="text-sm text-green-300 font-mono">{exp.year}</span>
+                  <span className="text-sm text-blue-300 font-mono">{exp.year}</span>
                 </div>
               </div>
             ))}
@@ -131,7 +131,7 @@ export default function Portfolio() {
 
         {/* Education */}
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold mb-6 flex items-center gap-2 text-green-300">
+          <h2 className="text-2xl font-semibold mb-6 flex items-center gap-2 text-blue-300">
             <GraduationCap className="w-6 h-6" />
             Education
           </h2>
@@ -143,7 +143,7 @@ export default function Portfolio() {
                     <h3 className="font-semibold text-gray-200">{edu.degree}</h3>
                     <p className="text-gray-400">{edu.school}</p>
                   </div>
-                  <span className="text-sm text-green-300 font-mono">{edu.year}</span>
+                  <span className="text-sm text-blue-300 font-mono">{edu.year}</span>
                 </div>
               </div>
             ))}
@@ -152,7 +152,7 @@ export default function Portfolio() {
 
         {/* Links */}
         <section>
-          <h2 className="text-2xl font-semibold mb-6 text-green-300">Links</h2>
+          <h2 className="text-2xl font-semibold mb-6 text-blue-300">Links</h2>
           <div className="flex gap-4">
             <a
               href="https://github.com/liammartin3"
