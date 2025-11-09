@@ -1,10 +1,15 @@
 import React from 'react';
 import { ExternalLink, MapPin, Code, Briefcase, GraduationCap, Github, Linkedin } from 'lucide-react';
 
-export default function Portfolio() {
+export default function Portfolio() { 
   const projects = [
     {
-      title: "Sample STAC Catalog",
+      title: "Kansas Water Quality Tracker",
+      description: "React app using Leaflet and USGS Water Services API",
+      url: "https://liammartin3.github.io/kansas-water-quality/"
+    },
+    {
+      title: "STAC Catalog",
       description: "Created using pystac, rasterio, shapely, and S3",
       url: "https://radiantearth.github.io/stac-browser/#/external/stac-data.s3.us-east-2.amazonaws.com/stac-catalog/catalog.json?.language=en"
     },
@@ -36,7 +41,7 @@ export default function Portfolio() {
   ];
 
   const experience = [
-    { year: "2023 - Present", role: "Geospatial Data Engineer", company: "Xentity Corporation" },
+    { year: "2023 - Present", role: "Geospatial Developer", company: "Xentity Corporation" },
     { year: "2020 - 2023", role: "Geospatial Analyst", company: "Red Castle Resources" },
     { year: "2019 - 2020", role: "GIS Technician", company: "Tasman Geosciences" }
   ];
@@ -51,13 +56,11 @@ export default function Portfolio() {
       <div className="max-w-5xl mx-auto px-6 py-16 sm:px-8">
         {/* Header */}
         <header className="mb-16">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-300 to-emerald-400 bg-clip-text text-transparent">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-300 to-purple-400 bg-clip-text text-transparent">
             Hi, my name is Liam Martin.
           </h1>
           <p className="text-xl sm:text-2xl text-gray-300 leading-relaxed">
-            I am a Geospatial Data Engineer who builds serverless cloud solutions on AWS. 
-            I specialize in metadata standards, combining Esri enterprise platforms 
-            with open source geospatial libraries to create scalable spatial data systems.
+            I am a Geospatial Developer that is interested in making spatial data more accessible via metadata.
           </p>
         </header>
 
