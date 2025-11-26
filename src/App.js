@@ -60,7 +60,7 @@ export default function Portfolio() {
             Hi, my name is Liam Martin.
           </h1>
           <p className="text-xl sm:text-2xl text-gray-300 leading-relaxed">
-            I am a Geospatial Developer that is interested in making spatial data more accessible via metadata.
+            I am a backend engineer specializing in spatial data, metadata, and data pipelines. I am currently expanding my expertise in cloud architecture and cloud-native geospatial data.
           </p>
         </header>
 
