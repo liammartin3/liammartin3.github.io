@@ -28,15 +28,15 @@ export default function Portfolio() {
   const notebooks = [
     {
       title: "Populate Esri Feature Class Null Values with Median",
-      url: "https://nbviewer.org/github/liammartin3/liammartin3.github.io/blob/main/NullFunction.ipynb"
+      url: "https://nbviewer.org/github/liammartin3/liammartin3.github.io/blob/main/portfolio-assets/NullFunction.ipynb"
     },
     {
       title: "Inserting and querying data in Postgres via GeoPandas",
-      url: "https://nbviewer.org/github/liammartin3/liammartin3.github.io/blob/main/Postgres_GeoPandas.ipynb"
+      url: "https://nbviewer.org/github/liammartin3/liammartin3.github.io/blob/main/portfolio-assets/Postgres_GeoPandas.ipynb"
     },
     {
       title: "Geopandas Exploration",
-      url: "https://nbviewer.org/github/liammartin3/liammartin3.github.io/blob/main/Wind.ipynb"
+      url: "https://nbviewer.org/github/liammartin3/liammartin3.github.io/blob/main/portfolio-assets/Wind.ipynb"
     }
   ];
 
