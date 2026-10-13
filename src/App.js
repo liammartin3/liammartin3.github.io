@@ -2,10 +2,16 @@ import React from 'react';
 import { ArrowUpRight, Github, Linkedin } from 'lucide-react';
 
 const projects = [
+{
+    title: "Wetland Loss to Agriculture in a Prairie Pothole Watershed, 2000-2020",
+    blurb: "Mapping North Dakota wetlands lost to cropland with Landsat",
+    tags: ["Earth Engine", "Python", "Landsat", "Leaflet", "Wetlands"],
+    url: "https://liammartin3.github.io/agriculture-wetland-loss/"
+  },
   {
     title: "Kansas Water Quality Tracker",
     blurb: "React app built on live gauge readings",
-    tags: ["React", "Leaflet", "USGS Water Services API"],
+    tags: ["Landsat", "Random forest ", "USGS Water Services API"],
     url: "https://liammartin3.github.io/kansas-water-quality/"
   },
   {
