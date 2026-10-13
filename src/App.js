@@ -174,9 +174,10 @@ export default function Portfolio() {
             Liam Martin
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-muted sm:text-xl">
-            I am a geospatial engineer specializing in spatial data, metadata, and data
-            pipelines. I am currently expanding my expertise in cloud architecture and
-            cloud-native geospatial data.
+            I am a geospatial engineer specializing in spatial data, metadata, and data 
+            pipelines. I am currently expanding my skills in cloud architecture, Google 
+            Earth Engine, and cloud-native geospatial data. I am especially interested 
+            in environmental work focused on conservation and land management.
           </p>
         </header>
 
