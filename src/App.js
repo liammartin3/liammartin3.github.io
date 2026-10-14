@@ -11,7 +11,7 @@ const projects = [
   {
     title: "Kansas Water Quality Tracker",
     blurb: "React app built on live gauge readings",
-    tags: ["Landsat", "Random forest ", "USGS Water Services API"],
+    tags: [ "USGS Water Services API", "NWS Hydrography", "Leaflet"],
     url: "https://liammartin3.github.io/kansas-water-quality/"
   },
   {
@@ -26,7 +26,7 @@ const projects = [
   },
   {
     title: "Resume Web Map",
-    blurb: "The first map I built with Leaflet",
+    blurb: "The first map I built with Leaflet. You have to start somewhere, right?",
     tags: ["Leaflet"],
     url: "https://liammartin3.github.io/map-resume"
   }
