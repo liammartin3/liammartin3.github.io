@@ -2,7 +2,13 @@ import React from 'react';
 import { ArrowUpRight, Github, Linkedin } from 'lucide-react';
 
 const projects = [
-{
+  {
+    title: "Massachusetts Wetlands API",
+    blurb: "OGC API - Features service for National Wetlands Inventory data, with automated data quality checks, deployed on AWS",
+    tags: ["pygeoapi", "OGC API", "Docker", "Terraform", "AWS", "Leaflet"],
+    url: "https://liammartin3.github.io/ma-wetlands/"
+  },
+  {
     title: "Wetland Loss to Agriculture in a Prairie Pothole Watershed, 2000-2020",
     blurb: "Mapping North Dakota wetlands lost to cropland with Landsat",
     tags: ["Earth Engine", "Python", "Landsat", "Leaflet", "Wetlands"],
